@@ -43,7 +43,7 @@ You can open an interactive prompt at any time to test out small snippets of cod
 
 The simplest Python program is just an empty text file.
 Python doesn't require any special functions or objects to be created unlike C or Java.
-The Python iterpreter will simply execute each line in the source file starting at the top.
+The Python interpreter will simply execute each line in the source file starting at the top.
 
 As is tradition, your first Python program will simply print `Hello world`.
 
@@ -261,7 +261,7 @@ Items in a list are not constrained to be of the same type; a list can hold abso
 l = [5, 2, 3, ['foo', 'bar', 42, 5, 5], 3]
 ```
 
-In this example `l` is a list with 5 elements. 
+In this example `l` is a list with 5 elements.
 
 The length of a list is accessed with the `len` function.
 
@@ -326,7 +326,7 @@ Notice the parentheses are not necessary in this context.
 
 ## Dictionaries
 
-One of Python's most powerful data structure is the dictionary.
+One of Python's most powerful data structures is the dictionary.
 Python's dictionary is equivalent to Java's HashMap.
 Dictionaries are created using curly braces.
 
@@ -357,7 +357,7 @@ for key, value in d.items():
     print(key, value) # prints every key and value in d
 ```
 
-Again as with lists and tuples dicts can be heterogenous.
+Again as with lists and tuples dicts can be heterogeneous.
 
 ```python
 def foo():
@@ -677,7 +677,7 @@ Type hints for function return values are placed after an arrow after the parame
 
 Python itself does nothing with the type hints.
 It would be perfectly valid to pass a list to the `foo` function defined above.
-Type hints are purely decorative unless used with an external tools such as [mypy].
+Type hints are purely decorative unless used with external tools such as [mypy].
 
 It is also possible to access the type hints from within Python code.
 The `__annotations__` attribute of the function contains all the type hinting information.
@@ -763,3 +763,5 @@ from _foo.lib import foo
 
 print(foo(7)) # call foo() from the C library
 ```
+
+
