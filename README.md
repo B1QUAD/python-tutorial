@@ -467,7 +467,7 @@ Python supports C-style printf formatting using the `%` operator.
 print('%s - %d' % ('foo', 42)) # prints "foo - 42"
 ```
 
-Use of this style of formatting is discourage in favor of the two newer methods.
+Use of this style of formatting is discouraged in favor of the two newer methods.
 
 ## .format
 
