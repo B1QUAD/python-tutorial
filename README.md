@@ -763,5 +763,3 @@ from _foo.lib import foo
 
 print(foo(7)) # call foo() from the C library
 ```
-
-
